@@ -67,8 +67,8 @@ Initialize the pacman keyring and start dirmngr, then import and sign the key us
 ```bash
 # pacman-key --init
 # dirmngr < /dev/null
-# pacman-key -r 7CBC0D51
-# pacman-key --lsign-key 7CBC0D51
+# pacman-key -r 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
+# pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 ```
 
 ### 3. Install required packages
