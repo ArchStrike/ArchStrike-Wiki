@@ -20,18 +20,18 @@
 To make sure the `buildarch` variable is correct on your submitted package, please see below.
 
 ```
-(1) = the default, package will be built for all architectures
-(4) = the package will be built only for armv7h
+(1) = (default) the package will be built for all architectures as 'any'
+(4) = the package will be built only for armv7
 (8) = the package will be build only for armv8 (AArch64)
-(16) = the package will be built only for armv6h
+(16) = the package will be built only for armv6
 (64) = the package will be built only for i686
 (128) = the package will be built only for x86_64
 (192) = the package will be built for x86_64 and i686
-(212) = the package will be built for armv6h, armv7h, i686 and x86_64
-(220) = the package will be built for armv6h, armv7h, armv8, i686 and x86_64
+(212) = the package will be built for armv6, armv7, i686 and x86_64
+(220) = the package will be built for armv6, armv7, armv8, i686 and x86_64
 ```
 
-Please note that using 1 and 220 is not interchangeable, a `buildarch` of `1` means `arch=('any')` while `220` means `arch=('i686' 'x86_64' 'armv6h' 'armv7h' 'aarch64')`.
+Please note that using 1 and 220 is not interchangeable, a `buildarch` of `1` is for `arch=('any')` while `220` is for `arch=('i686' 'x86_64' 'armv6h' 'armv7h' 'aarch64')`.
 
 ## Updating existing packages
 
