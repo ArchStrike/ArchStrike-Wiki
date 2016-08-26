@@ -31,7 +31,7 @@ To make sure the `buildarch` variable is correct on your submitted package, plea
 (220) = the package will be built for armv6h, armv7h, armv8, i686 and x86_64
 ```
 
-Please note however, that using 1 and 220 is not interchangable. A `buildarch` of 1 means the package has no differences when installing between arches so the same package will be used for all arches, however a `buildarch` of 220 means the package will be built differently for every arch thus having a different package file for each one of them.
+Please note that using 1 and 220 is not interchangeable, a `buildarch` of `1` means `arch=('any')` while `220` means `arch=('i686' 'x86_64' 'armv6h' 'armv7h' 'aarch64')`.
 
 ## Updating existing packages
 
