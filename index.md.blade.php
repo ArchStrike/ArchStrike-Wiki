@@ -23,3 +23,5 @@ Welcome to the [ArchStrike Wiki](/wiki): your source for ArchStrike documentatio
 [Obtaining Info About Targets with Recon-NG](/wiki/recon-ng)
 
 [Enumerating Directories With DirB](/wiki/dirb)
+
+[Cracking WPS with Reaver](/wiki/reaver)
