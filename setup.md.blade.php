@@ -7,7 +7,7 @@
 
 2) Write the ISO to a USB Stick (8G or larger) or a CD-ROM.
 
-* Linux: `dd if=ArchStrike-openbox-2016.07.21-x86_64.iso of=/dev/sdX bs=4M status=progress`
+* Linux and Mac OS X: `dd if=ArchStrike-openbox-2016.07.21-x86_64.iso of=/dev/sdX bs=4M status=progress`
 
 * Windows: Download [Rufus](https://rufus.akeo.ie/), select your USB device and the downloaded ISO file. **Important: Choose `DD image mode` on Rufus after you press the start button or the ISO won't boot.**
 
