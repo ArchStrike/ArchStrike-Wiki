@@ -15,7 +15,7 @@
 
 ## Submitting new packages
 
-* If the pull request is for a new package, review the [README](https://github.com/ArchStrike/ArchStrike/README.md) to ensure the package is going into the correct repository and meets all the stated requirements.
+* If the pull request is for a new package, review the [README](https://github.com/ArchStrike/ArchStrike/blob/master/README.md) to ensure the package is going into the correct repository and meets all the stated requirements.
 
 To make sure the `buildarch` variable is correct on your submitted package, please see below.
 
