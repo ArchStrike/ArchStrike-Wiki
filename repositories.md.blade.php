@@ -2,11 +2,11 @@
 
 ## archstrike
 
-The [archstrike](https://github.com/ArchStrike/ArchStrike/tree/master/archstrike) repository is our official, stable repository for ArchStrike packages. Packages in this repo have been reviewed, tested, are kept up to date, and generally meet a minimum standard of care
+The [archstrike](https://github.com/ArchStrike/ArchStrike/tree/master/archstrike) repository is our official, stable repository for ArchStrike packages. Packages in this repo have been reviewed, tested, are kept up to date, and generally meet a minimum standard of care.
 
 ## archstrike-testing
 
-The [archstrike-testing](https://github.com/ArchStrike/ArchStrike/tree/master/archstrike-testing) repository is the complete set of packages we migrated over from the (now defunct) ArchAssault repo. These packages haven't been cleaned up or fully tested yet, and therefore don't meet the minimum standard of care we're giving packages in our main repo. The majority of the packages in this repo install and run without any issues, but there will more than likely be some with issues too.
+The [archstrike-testing](https://github.com/ArchStrike/ArchStrike/tree/master/archstrike-testing) repository is the complete set of packages we migrated over from the (now defunct) ArchAssault repo. These packages haven't been cleaned up or fully tested yet, and therefore don't meet the minimum standard of care we're giving packages in our main repo. The majority of the packages in this repo install and run without any issues, but there will more than likely be some with issues too. **If you wish to use ArchStrike to its full range, don't be afraid to enable the testing repository.**
 
 We encourage everyone who wants access to the full set of packages to use both repos, with the understanding that we make no guarantees that everything will work perfectly. If bugs in packages are found, feel free to [create an issue](https://github.com/ArchStrike/ArchStrike/issues) letting us know so one of us can take a look at fixing it.
 
