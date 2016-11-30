@@ -12,6 +12,8 @@ Welcome to the [ArchStrike Wiki](/wiki): your source for ArchStrike documentatio
 
 [Setting up ArchStrike Desktop Themes](/wiki/desktop) - How to set up the i3, openbox and xfce configuration files
 
+[Connecting to ArchStrike IRC](/wiki/irc) - How to set up HexChat IRC client and join our IRC channel
+
 ## [Contributing](/wiki/contributing)
 
 [Getting Involved](/wiki/contributing/involvement) - Information about getting involved in the project.
