@@ -23,9 +23,9 @@ Welcome to the [ArchStrike Wiki](/wiki): your source for ArchStrike documentatio
 [Testing PKGBUILDs](/wiki/contributing/chroot) - A quick guide on putting together your chroot environment to test PKGBUILD files on.
 
 ## [ARM Install Guides](/wiki/arm)
-[ARMv6](/wiki/armv6)
-[ARMv7](/wiki/armv7)
-[ARMv8](/wiki/armv8)
+[ARMv6](/wiki/arm/armv6)
+[ARMv7](/wiki/arm/armv7)
+[ARMv8](/wiki/arm/armv8)
 
 ## [Tutorials](/wiki/tutorials)
 
