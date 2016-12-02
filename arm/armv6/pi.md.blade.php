@@ -2,7 +2,7 @@
 
 ## Part 1 - Installing ArchlinuxARM
 
-Go to [the ALARM Install guide](https://archlinuxarm.org/platforms/armv6/raspberry-pi#installation) and install ALARM on your device by following the steps.
+Go to [the ALARM Install guide](https://archlinuxarm.org/platforms/armv6/raspberry-pi) and install ALARM on your device by following the steps.
 
 ## Part 2 - Installing ArchStrike
 
