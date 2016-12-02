@@ -2,7 +2,7 @@
 
 ## [ARMv6](/wiki/arm/armv6)
 
-[Raspberry Pi](/wiki/arm/armv6/pi)
+[Raspberry Pi](/wiki/arm/armv6/raspberry-pi)
 
 ## [ARMv7](/wiki/arm/armv7)
 
