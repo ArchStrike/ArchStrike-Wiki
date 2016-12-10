@@ -1,6 +1,6 @@
 # Writing a PKGBUILD
 
-[Template PKGBUILD for Git packages](/wiki/contributing/pkgbuilds/gitpackages)
+[Template PKGBUILD for Git packages](/wiki/contributing/templates/gitpackages)
 
 ## Parts of a PKGBUILD
 
@@ -34,18 +34,20 @@
 
 ### Functions
 
-#### pkgver()
+#### pkgver() **Only for -git/-svn packages**
 
-This function generates the `pkgver` variable for -git/-svn packages. **Only for -git/-svn packages.**
+This function generates the `pkgver` variable for -git/-svn packages.
 
-#### prepare()
+* Write 1 to pkgver while writing the PKGBUILD. Afterwards run `makepkg` or `makechrootpkg` to generate the real pkgver.
 
-A preparation function. We can make changes to the files in this function. A common use is to patch files. **Not essential**
+#### prepare() **Only needed when a modification needs to be made to source**
 
-#### build()
+A preparation function. We can make changes to the files in this function. A common use is to patch files.
 
-A build function. We build the package source in this function if it needs to be built. **Not essential**
+#### build() **Only needed when source needs to be built before installation**
 
-#### package()
+A build function. We build the package source in this function if it needs to be built.
 
-The main function for packaging the source. Here we install the necessary files to the fakeroot. **Essential**
+#### package() **ESSENTIAL**
+
+The main function for packaging the source. Here we install the necessary files to the fakeroot.
