@@ -20,7 +20,7 @@ source=("https://link.to/source-${pkgver}.tar.gz")
 sha512sums=()
 
 prepare() {
-  # fix shebangs to python2 if source is python2
+  # fix shebangs to python2 if source has wrong shebangs
   grep -iRl 'python' source-${pkgver} | xargs sed -i 's|python$|python2|g'
 }
 
@@ -31,6 +31,6 @@ build() {
 
 package() {
   cd source-${pkgver}
-  python setup.py install --root=${pkgdir} --optimize=1
+  python setup.py install --root=${pkgdir} -O1 --skip-build
 }
 ```

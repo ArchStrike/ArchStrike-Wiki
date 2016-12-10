@@ -6,6 +6,8 @@
 
 [Template PKGBUILD for python2/3 library packages](/wiki/contributing/templates/pythonpackages)
 
+[Template PKGBUILD for generic packages](/wiki/contributing/templates/genericpackages)
+
 ## Parts of a PKGBUILD
 
 ### Variables
