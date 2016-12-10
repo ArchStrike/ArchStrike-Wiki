@@ -44,3 +44,7 @@ Please note that using 1 and 220 is not interchangeable, a `buildarch` of `1` is
 * If it is not a new version but a different update such as changing something in the PKGBUILD that will effect the build process of the package, bump the `pkgrel` number by 1 and keep `pkgver` the same.
 
 * Ensure that `buildarch` is set correctly (see above).
+
+## Other notes
+
+* Provide `namcap` output of the PKGBUILD file and the `pkgname.tar.xz` that is created after package is built within your pull request.

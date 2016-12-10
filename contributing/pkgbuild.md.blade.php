@@ -63,3 +63,15 @@ A build function. We build the package source in this function if it needs to be
 The main function for packaging the source. Here we install the necessary files to the fakeroot.
 
 * The `package()` function is the only required function in a PKGBUILD. If you must only copy files into their respective directories to install a program, do not put it in the `build()` function, put that in the `package()` function.
+
+## Tips for PKGBUILD contributors
+
+* Run `namcap` on your `PKGBUILD` file and your `pkgname.tar.xz` after building it. This will uncover common errors. **You can ignore warnings about the buildarch variable not starting with an underscore**
+
+* Make sure your package works and installs properly by [testing your PKGBUILD in a clean chroot](/wiki/contributing/chroot).
+
+* Make sure `pkgname` is the same with the folder the package is in.
+
+* Don't forget to bump `pkgrel` if a change is made without changing the version of the package.
+
+* Make sure to read the [contribution guideline](/wiki/contributing/details) before submitting your pull request.
