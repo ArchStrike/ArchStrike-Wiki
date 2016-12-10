@@ -34,20 +34,20 @@
 
 ### Functions
 
-#### pkgver() **Only for -git/-svn packages**
+#### pkgver() | **Only for -git/-svn packages**
 
 This function generates the `pkgver` variable for -git/-svn packages.
 
 * Write 1 to pkgver while writing the PKGBUILD. Afterwards run `makepkg` or `makechrootpkg` to generate the real pkgver.
 
-#### prepare() **Only needed when a modification needs to be made to source**
+#### prepare() | **Only needed when a modification needs to be made to source**
 
 A preparation function. We can make changes to the files in this function. A common use is to patch files.
 
-#### build() **Only needed when source needs to be built before installation**
+#### build() | **Only needed when source needs to be built before installation**
 
 A build function. We build the package source in this function if it needs to be built.
 
-#### package() **ESSENTIAL**
+#### package() | **ESSENTIAL**
 
 The main function for packaging the source. Here we install the necessary files to the fakeroot.
