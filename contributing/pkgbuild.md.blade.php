@@ -40,6 +40,8 @@ This function generates the `pkgver` variable for -git/-svn packages.
 
 * Write 1 to pkgver while writing the PKGBUILD. Afterwards run `makepkg` or `makechrootpkg` to generate the real pkgver.
 
+* pkgver cannot contain spaces or hyphens (-). Using sed to correct this is common.
+
 #### prepare() | **Only needed when a modification needs to be made to source**
 
 A preparation function. We can make changes to the files in this function. A common use is to patch files.
@@ -51,3 +53,5 @@ A build function. We build the package source in this function if it needs to be
 #### package() | **ESSENTIAL**
 
 The main function for packaging the source. Here we install the necessary files to the fakeroot.
+
+* Creating symlinks is a slightly awkward process in the package() function. Using the naive approach ln -s "${pkgdir}/from/foo" "${pkgdir}/to/goo" will result in a broken symlink to the build directory. The way to create a proper link is to create it pointing to an initially-broken source, ln -s "/from/foo" "${pkgdir}/to/goo". Once the package is installed, the link will point to the right place.
