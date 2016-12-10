@@ -1,6 +1,7 @@
 # Writing a PKGBUILD
 
 [Template PKGBUILD for Git packages](/wiki/contributing/templates/gitpackages)
+[Template PKGBUILD for C or similar source packages](/wiki/contributing/templates/cpackages)
 
 ## Parts of a PKGBUILD
 
