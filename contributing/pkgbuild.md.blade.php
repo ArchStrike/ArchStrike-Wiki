@@ -6,7 +6,7 @@
 
 ### Variables
 
-`buildarch` : This is a variable specific to the ArchStrike PKGBUILD files. You can find more information about this variable on the [contribution guide](/wiki/contribution/details)
+`buildarch` : This is a variable specific to the ArchStrike PKGBUILD files. You can find more information about this variable on the [contribution guide](/wiki/contributing/details)
 
 `pkgname` : The name of the package.
 
