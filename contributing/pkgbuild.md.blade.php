@@ -4,6 +4,8 @@
 
 [Template PKGBUILD for C or similar source packages](/wiki/contributing/templates/cpackages)
 
+[Template PKGBUILD for python2/3 library packages](/wiki/contributing/templates/pythonpackages)
+
 ## Parts of a PKGBUILD
 
 ### Variables
