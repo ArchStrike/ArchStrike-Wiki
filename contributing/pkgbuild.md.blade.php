@@ -1,41 +1,6 @@
 # Writing a PKGBUILD
 
-An empty sample of a PKGBUILD file
-
-```
-# Maintainer: ArchStrike <team@archstrike.org>
-
-buildarch=
-
-pkgname=
-pkgver=
-pkgrel=
-groups=()
-arch=()
-pkgdesc=
-url=
-license=()
-depends=()
-makedepends=()
-source=()
-sha512sums=()
-
-pkgver() {
-
-}
-
-prepare() {
-
-}
-
-build() {
-
-}
-
-package() {
-
-}
-```
+[Template PKGBUILD for Git packages](/wiki/contributing/pkgbuilds/gitpackages)
 
 ## Parts of a PKGBUILD
 
