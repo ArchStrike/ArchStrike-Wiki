@@ -2,6 +2,8 @@
 
 [Template PKGBUILD for Git packages](/wiki/contributing/templates/gitpackages)
 
+[Template PKGBUILD for Svn packages](/wiki/contributing/templates/svnpackages)
+
 [Template PKGBUILD for C or similar source packages](/wiki/contributing/templates/cpackages)
 
 [Template PKGBUILD for python2/3 library packages](/wiki/contributing/templates/pythonpackages)
