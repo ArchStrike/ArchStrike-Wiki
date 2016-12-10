@@ -34,10 +34,18 @@
 
 ### Functions
 
-`pkgver()` : This function generates the `pkgver` variable for -git/-svn packages. **Only for -git/-svn packages.**
+#### pkgver()
 
-`prepare()` : A preparation function. We can make changes to the files in this function. A common use is to patch files. **Not essential**
+This function generates the `pkgver` variable for -git/-svn packages. **Only for -git/-svn packages.**
 
-`build()` : A build function. We build the package source in this function if it needs to be built. **Not essential**
+#### prepare()
 
-`package()` : The main function for packaging the source. Here we install the necessary files to the fakeroot. **Essential**
+A preparation function. We can make changes to the files in this function. A common use is to patch files. **Not essential**
+
+#### build()
+
+A build function. We build the package source in this function if it needs to be built. **Not essential**
+
+#### package()
+
+The main function for packaging the source. Here we install the necessary files to the fakeroot. **Essential**
