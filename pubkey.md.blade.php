@@ -1,3 +1,6 @@
+This is the ArchStrike public key. Copy and paste this keyblock into a file on your computer.
+
+
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
