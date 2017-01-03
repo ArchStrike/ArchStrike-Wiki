@@ -38,10 +38,11 @@ Initialize the pacman keyring and start dirmngr, then import and sign the key us
 # pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 ```
 
-**If you are having issues importing the key from the keyserver, copy and paste the [public key](/wiki/pubkey) into `keyfile.asc` on your computer and run the following commands:**
+**If you are having issues importing the key from the keyserver, run the following commands to manually download the public key:**
 ```
 # pacman-key --init
 # dirmngr < /dev/null
+# wget https://archstrike.org/keyfile.asc
 # pacman-key --add keyfile.asc
 # pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 ```
