@@ -1,5 +1,7 @@
 # Writing a PKGBUILD
 
+## Template PKGBUILDs
+
 [Template PKGBUILD for Git packages](/wiki/contributing/templates/gitpackages)
 
 [Template PKGBUILD for Svn packages](/wiki/contributing/templates/svnpackages)
@@ -10,7 +12,7 @@
 
 [Template PKGBUILD for generic packages](/wiki/contributing/templates/genericpackages)
 
-## Parts of a PKGBUILD
+## Anatomy of a PKGBUILD
 
 ### Variables
 
@@ -67,11 +69,12 @@ The main function for packaging the source. Here we install the necessary files 
 ## Tips for PKGBUILD contributors
 
 * Run `namcap` on your `PKGBUILD` file and your `pkgname.tar.xz` after building it. This will uncover common errors. **You can ignore warnings about the buildarch variable not starting with an underscore**
+  Such as `namcap some-package-x86_64.tar.xz` or `namcap PKGBUILD`.
 
 * Make sure your package works and installs properly by [testing your PKGBUILD in a clean chroot](/wiki/contributing/chroot).
 
 * Make sure `pkgname` is the same with the folder the package is in.
 
-* Don't forget to bump `pkgrel` if a change is made without changing the version of the package.
+* Don't forget to bump `pkgrel` by 1 if a change is made without changing the version of the package (such as a change in the description or groups).
 
-* Make sure to read the [contribution guideline](/wiki/contributing/details) before submitting your pull request.
+* Make sure to read the [contribution guideline](/wiki/contributing/details) before submitting your pull request to make sure it meets the predefined standards.
