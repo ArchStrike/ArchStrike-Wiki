@@ -68,8 +68,8 @@ The main function for packaging the source. Here we install the necessary files 
 
 ## Tips for PKGBUILD contributors
 
-* Run `namcap` on your `PKGBUILD` file and your `pkgname.tar.xz` after building it. This will uncover common errors. **You can ignore warnings about the buildarch variable not starting with an underscore**
-  Such as `namcap some-package-x86_64.tar.xz` or `namcap PKGBUILD`.
+* Run `namcap` on your `PKGBUILD` file and your `pkgname.tar.xz` after building it. This will uncover common errors. Such as `namcap some-package-x86_64.tar.xz` or `namcap PKGBUILD`.
+  **You can ignore warnings about the buildarch variable not starting with an underscore**
 
 * Make sure your package works and installs properly by [testing your PKGBUILD in a clean chroot](/wiki/contributing/chroot).
 
