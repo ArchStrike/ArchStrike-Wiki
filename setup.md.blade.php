@@ -47,6 +47,15 @@ Initialize the pacman keyring and start dirmngr, then import and sign the key us
 # pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 ```
 
+SHA512 of the keyfile.asc file: `46997d19790b15f023b5e7c548d35f17f745a879ed035b8d1dbfc970dee502508951cf7ac1cd037921e2c7812c6bbe05f492d5df400882bf6c5ffdf1a10214e4`
+
+You can run the following commands to verify the checksum:
+```
+$ wget https://archstrike.org/keyfile-checksum
+$ sha512sum -c keyfile-checksum
+keyfile.asc: OK
+```
+
 ### 3. Install required packages
 
 Install `archstrike-keyring` and `archstrike-mirrorlist` to import the keyring and setup the mirrorlist:
