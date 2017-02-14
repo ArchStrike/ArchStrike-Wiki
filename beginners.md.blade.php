@@ -38,7 +38,11 @@ NOTE: For the torrent download, you will need a torrent client such as uTorrent 
 
 1 - Boot your computer from the USB with the ArchStrike live image written. (Take a look [here](http://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc) if you don't know how to boot your computer from a USB).
 
-2 - Right click on the desktop and select `Install ArchStrike` from the menu. Follow the on-screen instructions.
+2 - Ensure you're running the latest version of the `archstrike-installer` with
+
+`sudo pacman -Syy && sudo pacman -S archstrike-installer`
+
+3 - Right click on the desktop and select `Install ArchStrike` from the menu. Follow the on-screen instructions.
 
 **IMPORTANT NOTE: If the installer quits without giving any error, [apply the patch to fix it](https://archstrike.org/news/10022). Sorry for the inconvenience.**
 
