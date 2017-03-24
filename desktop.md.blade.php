@@ -2,6 +2,11 @@
 
 ### OpenBox
 
+Install the package:
+```
+pacman -S archstrike-openbox-config
+```
+
 The configuration files go to `/usr/share/archstrike-openbox-config`
 
 To change your openbox configuration, please run the following commands.
@@ -33,6 +38,11 @@ If you are using a display manager you'll need to change your default desktop en
 
 ## i3
 
+Install the package:
+```
+pacman -S archstrike-i3-config
+```
+
 The configuration files go to /usr/share/archstrike-i3-config
 
 To change your i3 configuration, please run the following commands.
@@ -63,6 +73,11 @@ echo 'exec i3' > .xinitrc
 If you are using a display manager you'll need to change your default desktop environment/window manager to i3
 
 ## XFCE
+
+Install the package:
+```
+pacman -S archstrike-xfce-config
+```
 
 The configuration files go to `/usr/share/archstrike-xfce-config`
 
