@@ -4,15 +4,7 @@ ArchStrike is a non-profit organization aiming to create a simple and clean pene
 
 ## Testing packages
 
-ArchStrike consists of two repositories which are `archstrike` and `archstrike-testing`.
-
-You can learn more about the repositories in our [wiki entry](https://archstrike.org/wiki/repositories). You can also study the full list of our [packages](https://archstrike.org/packages).
-
-Testing a package involves installing our `archstrike-testing` repository on your computer. Testing the packages helps us move them into the main repository in which they will be regularly updated and maintained by our team.
-
-After you inform us, we will confirm if the package works or not and it will be moved into the main repository.
-
-You can notify us via our github [issue tracker](https://github.com/ArchStrike/ArchStrike/issues) or any other communication medium you find suitable.
+Testing updated packages helps catch issues we might have missed. If you find an issue, please notify us via our github [issue tracker](https://github.com/ArchStrike/ArchStrike/issues) or send an email to <a href="mailto:team@archstrike.org">team@archstrike.org</a>.
 
 ## Submitting PKGBUILDs
 

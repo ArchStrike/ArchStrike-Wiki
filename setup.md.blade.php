@@ -81,13 +81,6 @@ with a new block that uses the mirrorlist instead:
 Include = /etc/pacman.d/archstrike-mirrorlist
 ```
 
-**Note**: To use the `archstrike-testing` repository you should _also_ add the following block (See the [repositories](/wiki/repositories) page for more information):
-
-```conf
-[archstrike-testing]
-Include = /etc/pacman.d/archstrike-mirrorlist
-```
-
 Refresh the pacman package database again to reflect the changes above by running:
 
 ```bash
@@ -96,11 +89,10 @@ Refresh the pacman package database again to reflect the changes above by runnin
 
 ## II. Groups and Packages
 
-The list of ArchStrike packages from each repository can be viewed by running:
+The list of ArchStrike packages can be viewed by running:
 
 ```bash
 $ pacman -Sl archstrike
-$ pacman -Sl archstrike-testing
 ```
 
 The list of ArchStrike groups available can be viewed by running:
