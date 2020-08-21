@@ -29,6 +29,8 @@ Refresh the pacman package database by running:
 
 ### 2. Bootstrap and install the ArchStrike keyring
 
+#### 2a. Receive from keyserver
+
 Initialize the pacman keyring and start dirmngr, then import and sign the key used to sign the `archstrike-keyring` package:
 
 ```bash
@@ -37,6 +39,8 @@ Initialize the pacman keyring and start dirmngr, then import and sign the key us
 # pacman-key -r 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 # pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 ```
+
+#### 2b. Download directly from our server
 
 **If you are having issues importing the key from the keyserver, run the following commands to manually download the public key:**
 ```
